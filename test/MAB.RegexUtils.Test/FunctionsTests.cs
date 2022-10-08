@@ -1,5 +1,7 @@
-﻿namespace MAB.RegexUtils.Test;
-public class FunctionsTests
+﻿namespace MAB.RegexUtils.Test
 {
+    public class FunctionsTests
+    {
 
+    }
 }
