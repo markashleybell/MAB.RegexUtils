@@ -5,6 +5,9 @@ using System.Text;
 
 namespace MAB.RegexUtils
 {
+    // Ported from: https://github.com/micromatch/to-regex-range
+    // https://stackoverflow.com/questions/676467/how-to-match-numbers-between-x-and-y-with-regexp
+
     public static class Functions
     {
         public static string GenerateNumericRangeRegex(int min, int max, Func<string, string> postProcess = null)
